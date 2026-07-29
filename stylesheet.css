@@ -112,7 +112,7 @@ header{
 
 /* ------SEC01------- */
 
-.sec01, .sec02{
+.sec01{
     max-width: 1920px;
     margin: 0 auto;
     width: 1520px;
@@ -188,6 +188,16 @@ header{
 }
 
 /* ------SEC02------- */
+
+.sec02{
+    max-width: 1920px;
+    margin: 0 auto;
+    width: 1520px;
+    font-size: 16px;
+    margin-top: 200px;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
 .sec01-headline{
     display: flex;
 }
@@ -203,4 +213,65 @@ header{
     font-size: 16px;
     font-family: Yu Gothic;
     font-weight: 550;
+}
+
+.btns{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.btn01{
+    text-transform: uppercase;
+    background-color: #434343;
+    padding: 10px 30px;
+    color: #ffffff;
+    border-radius: 50px;
+    width: fit-content;
+    letter-spacing: 15%;
+    border: 1px solid transparent;
+    transition: all 0.5s ease;
+}
+
+.btn01:hover{
+    background-color: #ffffff;
+    color: #434343;
+    border: 1px solid #434343;
+}
+
+.btn02, .btn03{
+    text-transform: uppercase;
+    padding: 10px 30px;
+    background-color: #ffffff;
+    color: #434343;
+    border: 1px solid #434343;
+    border-radius: 50px;
+    width: fit-content;
+    letter-spacing: 15%;
+    transition: all 0.5s ease;
+}
+
+.btn02:hover,
+.btn03:hover {
+    background-color: #434343;
+    color: #ffffff;
+}
+
+.btn04 a {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: #434343;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.fa-arrow-right-long {
+    transition: transform 0.3s ease;
+    margin-left: 5px;
+}
+
+.btn04:hover .fa-arrow-right-long {
+    transform: translateX(8px);
 }
