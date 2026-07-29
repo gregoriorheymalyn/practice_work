@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesheet.css">
+    <script src="script.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -65,26 +66,79 @@
     </div>
 
     <div class="sec02">
-        <div class="sec02-headline">
+        <div class="sec02-headline-content">
             <div class="sec02-subheadline">━すべての商品</div>
             <div class="sec02-headline">all products</div>
         </div>
 
         <div class="sec02-content">
             <div class="btns">
-                <div class="btn01">clothes</div>
-                <div class="btn02">shoes</div>
-                <div class="btn03">accessories</div>
+                <div class="btn01" onclick="showCategory('clothes', this)">Clothes</div>
+                <div class="btn02" onclick="showCategory('shoes', this)">Shoes</div>
+                <div class="btn03" onclick="showCategory('accessories', this)">Accessories</div>
                 <div class="btn04"><a href="">see more</a><i class="fa-solid fa-arrow-right-long"></i></div>
             </div>
-            <div class="sec02-imgs">
 
+            <div id="clothes" class="products">
+                <img src="img/top/product-img01.jpg" alt="">
+                <img src="img/top/product-img02.jpg" alt="">
+                <img src="img/top/product-img03.jpg" alt="">
+                <img src="img/top/product-img04.jpg" alt="">
+            </div>
+
+            <div id="shoes" class="products" style="display:none;">
+                <img src="img/top/product-img05.jpg" alt="">
+                <img src="img/top/product-img06.jpg" alt="">
+                <img src="img/top/product-img07.jpg" alt="">
+                <img src="img/top/product-img08.jpg" alt="">
+            </div>
+
+            <div id="accessories" class="products" style="display:none;">
+                <img src="img/top/product-img09.jpg" alt="">
+                <img src="img/top/product-img10.jpg" alt="">
+                <img src="img/top/product-img11.jpg" alt="">
+                <img src="img/top/product-img12.jpg" alt="">
+            </div>
+            <div class="sec02-text">
+                これはダミーテキストです。文字の大きさ、量、字間、行間等を確認するために入れています。これはダミーテキストです。<br>
+                文字の大きさ、量、字間、行間等を確認するために入れています。これはダミーテキストです。<br>
+                <br>
+                文字の大きさ、量、字間、行間等を確認するために入れています。これはダミーテキストです。文字の大きさ、量、字間、<br>
+                行間等を確認するために入れています。これはダミーテキストです。文字の大きさ、量、字間、行間等を確認するために入れています。<br>
+                これはダミーテキストです。
             </div>
         </div>
-     
     </div>
 
+    <div class="sec03">
+        <div class="sec03-headline-content">
+            <div class="sec03-content-headline">
+                <div class="sec03-subheadline">━よくあるご質問</div>
+                <div class="sec03-headline">faq</div>                
+            </div>
+            <div class="sec03-btn" href="">see more</div> 
+        </div>
 
+        <div class="accordion">
+            <div class="item">
+                <div class="question">
+                    <span class="icon">Q</span>
+
+                    <span class="question-text">
+                        テキストのレイアウトやデザインを確認するために使用されます。この文章はダミーテキストです。テキストのレイアウトやデザインを確認するために使用されます。この文章はダミーテキストです。
+                    </span>
+                    <span class="arrow">+</span>
+                </div>
+
+                <div class="answer">
+                    <span class="icon answer-icon">A</span>
+                    <p>テキストのレイアウトやデザインを確認するために使用されます。この文章はダミーテキストです。テキストのレイアウトやデザインを確認するために使用されます。この文章はダミーテキストです。</p>
+                    <span class="arrow">-</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
 
 </body>
 </html>

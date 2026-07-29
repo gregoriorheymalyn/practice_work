@@ -189,27 +189,23 @@ header{
 
 /* ------SEC02------- */
 
-.sec02{
+.sec02, .sec03{
     max-width: 1920px;
     margin: 0 auto;
     width: 1520px;
     font-size: 16px;
-    margin-top: 200px;
+    margin: 200px;
     /* font-family: 'Poppins', sans-serif; */
 }
 
-.sec01-headline{
-    display: flex;
-}
-
-.sec02-headline{
+.sec02-headline, .sec03-headline{
     text-transform: uppercase;
     font-size: 64px;
     letter-spacing: 8px;
     font-weight: 800;
 }
 
-.sec02-subheadline{
+.sec02-subheadline, .sec03-subheadline{
     font-size: 16px;
     font-family: Yu Gothic;
     font-weight: 550;
@@ -222,7 +218,7 @@ header{
     margin: 60px 0;
 }
 
-.btn01{
+.btn01, .btn02, .btn03{
     text-transform: uppercase;
     background-color: #434343;
     padding: 10px 30px;
@@ -234,24 +230,7 @@ header{
     transition: all 0.5s ease;
 }
 
-.btn01:hover{
-    background-color: #ffffff;
-    color: #434343;
-    border: 1px solid #434343;
-}
-
-.btn02, .btn03{
-    text-transform: uppercase;
-    padding: 10px 30px;
-    background-color: #ffffff;
-    color: #434343;
-    border: 1px solid #434343;
-    border-radius: 50px;
-    width: fit-content;
-    letter-spacing: 15%;
-    transition: all 0.5s ease;
-}
-
+.btn01:hover,
 .btn02:hover,
 .btn03:hover {
     background-color: #434343;
@@ -275,4 +254,103 @@ header{
 
 .btn04:hover .fa-arrow-right-long {
     transform: translateX(8px);
+}
+
+.sec02-text{
+    margin-top: 60px;
+    font-family: Yu Gothic;
+    font-size: 16px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.btn01,
+.btn02,
+.btn03 {
+    background-color: #fff;
+    color: #434343;
+    border: 1px solid #434343;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn01.active,
+.btn02.active,
+.btn03.active {
+    background-color: #434343;
+    color: #fff;
+}
+
+/* ------SEC03------- */
+
+.sec03-headline-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sec03-btn{
+    text-transform: uppercase;
+    background-color: #434343;
+    padding: 10px 30px;
+    color: #ffffff;
+    border-radius: 50px;
+    height: fit-content;
+    letter-spacing: 15%;
+    border: 1px solid transparent;
+    transition: all 0.5s ease;
+}
+
+.sec03-btn:hover{
+    background-color: #ffffff;
+    color: #434343;
+    border: 1px solid #434343;
+}
+
+
+.accordion {
+  max-width: 1000px;
+}
+
+.item {
+    border-bottom: 1px solid #ccc;
+}
+
+.question {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 25px 0;
+    width: max-content;
+    border-bottom: 1px solid #434343;
+}
+
+.question-text {
+    flex: 1;           /* Take up all available space */
+    line-height: 2;
+}
+
+.icon,
+.arrow {
+    flex-shrink: 0;    /* Prevent them from shrinking */
+}
+
+.answer-icon {
+    background: white;
+    color: #434343;
+}
+
+.answer {
+    display: none;
+    font-family: Yu Gothic;
+    width: max-content;
+}
+
+.answer.active {
+    display: flex;
+    gap: 20px;
 }
