@@ -28,6 +28,27 @@ header{
     text-transform: uppercase;
 }
 
+.header-list a {
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+    font-weight: 600;
+    transition: font-weight 0.3s ease;
+}
+
+.header-list a::after {
+    content: attr(data-text);
+    font-weight: 900;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.header-list a:hover {
+    font-weight: 900;
+}
+
 .header-list li {
     margin: 0;
 }
@@ -559,4 +580,9 @@ footer{
     letter-spacing: 2.4px;
     text-decoration: none;
     color: inherit;
+}
+
+.btn-topage p:hover{
+    font-weight: 800;
+    transition: font-weight 0.3s ease;
 }
