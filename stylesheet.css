@@ -219,7 +219,8 @@ header{
     margin: 0 auto;
     width: 1520px;
     font-size: 16px;
-    margin: 200px;
+    margin-top: 200px;
+    /* margin: 200px; */
     /* font-family: 'Poppins', sans-serif; */
 }
 
