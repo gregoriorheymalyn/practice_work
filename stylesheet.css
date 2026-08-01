@@ -214,7 +214,7 @@ header{
 
 /* ------SEC02------- */
 
-.sec02, .sec03{
+.sec02, .sec03, .sec04{
     max-width: 1920px;
     margin: 0 auto;
     width: 1520px;
@@ -406,15 +406,6 @@ header{
 }
 
 /* ------SEC04------- */
-
-.sec04{
-    max-width: 1920px;
-    margin: 0 auto;
-    width: 1520px;
-    font-size: 16px;
-    margin-top: 200px;
-    /* font-family: 'Poppins', sans-serif; */
-}
 
 .sec04-content{
     display: flex;
