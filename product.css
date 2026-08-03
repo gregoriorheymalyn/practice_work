@@ -1,0 +1,50 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #434343;
+    margin: 0 auto;
+}
+
+/* ----------CONTENT----------- */
+.content{
+    text-align: center;
+    padding-top: 100px;
+    max-width: 1920px;
+    margin: 0 auto;
+    width: 1520px;
+}
+
+.headline{
+    text-align: left;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 15%;
+}
+
+.cards-content{
+    display: grid;
+    gap: 60px;
+}
+
+.clothes-products {
+    display: flex;
+    gap: 30px;
+}
+
+.cards{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.card-titledate{
+    text-align: left;
+    padding-top: 30px;
+    font-family: Yu Gothic;
+    display: grid;
+    gap: 10px;
+}
+
+.card-titledate p{
+    margin: 0;
+}
