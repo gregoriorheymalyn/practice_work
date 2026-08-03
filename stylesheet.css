@@ -22,7 +22,6 @@ header{
     margin: 0;
     gap: 20px;
     letter-spacing: 2.4px;
-    font-weight: 600;
     line-height: normal;
     letter-spacing: 2.4px;
     text-transform: uppercase;
@@ -32,7 +31,7 @@ header{
     position: relative;
     text-decoration: none;
     color: inherit;
-    font-weight: 600;
+    font-weight: 500;
     transition: font-weight 0.3s ease;
 }
 
@@ -431,7 +430,6 @@ header{
     /* margin-top: 200px;
     margin-bottom: 100px; */
     margin-top: 200px;
-    margin-bottom: 100px;
     display: flex;
     gap: 60px;
     /* font-family: 'Poppins', sans-serif; */
@@ -467,114 +465,4 @@ header{
 
 .blog-titledate{
     margin: 30px 0;
-}
-
-/* ------FOOTER------- */
-footer{
-    background-color: #434343;
-    color: #ffffff;
-    padding: 60px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.footer-contact{
-    display: grid;
-    gap: 30px;
-}
-
-.footer-contact01 {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-}
-
-.footer-contact01 a {
-    color: inherit;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 800;
-    display: flex;
-    align-items: center;
-    gap: 10px; /* Space between phone icon and text */
-}
-
-.footer-contact01 .fa-envelope,
-.footer-contact01 .fa-arrow-right-long {
-    font-size: 24px;
-}
-
-.footer-contact02{
-   display: flex; 
-   gap: 30px;
-}
-
-.contact02{
-    color: inherit;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 400;
-    display: flex;
-    align-items: center;
-    text-transform: uppercase;
-    letter-spacing: 15%;
-    gap: 10px;
-    padding-right: 30px;
-    border-right: 2px solid #fff;
-}
-
-.contact02 a{ 
-    color: inherit;
-    text-decoration: none;
-}
-
-.footer-line {
-    width: 26px;      /* Adjust length */
-    height: 2px;      /* Thickness */
-    background: #fff;
-}
-
-.footer-left-content{
-    display: grid;
-    gap: 60px;
-}
-
-.privacy{
-    text-transform: uppercase;
-}
-
-.privacy a{
-    color: inherit;
-    text-decoration: none;
-    font-weight: 600;
-    letter-spacing: 2.4px;
-}
-
-.footer-right-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.btn-topage {
-    margin-top: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    text-decoration: none; /* Move it here */
-    color: inherit;
-}
-
-.btn-topage p{
-    margin: 0;
-    text-transform: uppercase;
-    letter-spacing: 2.4px;
-    text-decoration: none;
-    color: inherit;
-}
-
-.btn-topage p:hover{
-    font-weight: 800;
-    transition: font-weight 0.3s ease;
 }
