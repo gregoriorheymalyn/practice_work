@@ -27,3 +27,25 @@ body{
 .sec04-content{
     margin-top: 30px;
 }
+
+.sec04{
+    width: max-content;
+    margin-top: 60px;
+    display: grid;
+    gap: 30px;
+}
+
+.sec04-content{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.sec04-text{
+    display: grid;
+    gap: 30px;
+}
+
+.sec04-text p{
+    margin: 0;
+}

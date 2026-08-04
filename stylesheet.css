@@ -324,6 +324,29 @@ header{
     border: 1px solid #434343;
 }
 
+/* ------SEC04------- */
+
+.sec04{
+    margin-top: 200px;
+    display: grid;
+    gap: 30px;
+}
+
+.sec04-content{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.sec04-text{
+    display: grid;
+    gap: 30px;
+    width: 413px;
+}
+
+.sec04-text p{
+    margin: 0;
+}
 
 /* ------BLOG------- */
 .blog{
