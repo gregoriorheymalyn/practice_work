@@ -5,12 +5,14 @@ body{
 }
 
 /* ----------CONTENT----------- */
-.content{
+.sec01{
     text-align: center;
     padding-top: 100px;
     max-width: 1920px;
     margin: 0 auto;
     width: 1520px;
+    display: grid;
+    gap: 100px;
 }
 
 .headline{

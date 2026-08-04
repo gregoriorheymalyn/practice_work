@@ -1,0 +1,29 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #434343;
+    margin: 0 auto;
+}
+
+.content{
+    padding-top: 100px;
+    max-width: 1920px;
+    margin: 0 auto;
+    width: 1520px;
+}
+
+.headline{
+    text-transform: uppercase;
+    font-size: 64px;
+    letter-spacing: 8px;
+    font-weight: 800;
+}
+
+.subheadline{
+    font-size: 16px;
+    font-family: Yu Gothic;
+    font-weight: 550;
+}
+
+.sec04-content{
+    margin-top: 30px;
+}

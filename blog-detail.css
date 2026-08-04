@@ -1,0 +1,15 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #434343;
+    margin: 0 auto;
+}
+
+.blog-detail{
+    max-width: 1920px;
+    margin: 0 auto;
+    width: 1520px;
+    font-size: 16px;
+    display: grid;
+    margin-top: 100px;
+    gap: 60px;
+}
