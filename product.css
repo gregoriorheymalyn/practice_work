@@ -28,7 +28,7 @@ body{
     gap: 60px;
 }
 
-.clothes-products {
+.products {
     display: flex;
     gap: 30px;
 }
